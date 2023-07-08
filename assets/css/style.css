@@ -180,7 +180,7 @@ h6 {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 60px 0;
+  padding: 40px 0;
 }
 
 .section-bg {
@@ -207,7 +207,7 @@ section {
 --------------------------------------------------------------*/
 #coachsir_middle .info-wrap {
   background: rgba(255, 255, 255, 0.06);
-  padding: 30px;
+  padding: 20px;
 }
 
 #coachsir_middle .info i {
@@ -225,7 +225,7 @@ section {
 }
 
 #coachsir_middle .info h4 {
-  padding: 0 0 0 60px;
+  padding: 0 0 0 20px;
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 5px;
