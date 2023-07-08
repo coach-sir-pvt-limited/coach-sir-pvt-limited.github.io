@@ -84,6 +84,42 @@ h6 {
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
+
+.mynavbar
+{
+  margin: 2px;
+  padding: 4px;
+}
+.mynavbar form a button
+{
+   border-color: #1fc0fa;
+   padding: 10px 15px;
+   color: #1fc0fa;
+   margin: 0px 3px;
+}
+
+ @media screen and (max-width: 400px){
+  .mynavbar form a button{
+    border-color: #1fc0fa;
+    padding: 10px 15px;
+    color: #1fc0fa;
+    margin: 0px 3px;
+  }
+}
+
+
+.mynavbar form a button:hover
+{
+   border-color: #1fc0fa;
+   color: #fff;
+   background-color: #1fc0fa;
+}
+
+.mynavbar a img
+{
+   padding: 20px;
+}
+
 #coachsir_top {
   position: relative;
   width: 100%;
@@ -180,7 +216,7 @@ h6 {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 40px 0;
+  padding: 20px 0;
 }
 
 .section-bg {
@@ -189,7 +225,7 @@ section {
 
 .section-title {
   text-align: center;
-  padding-bottom: 15px;
+  padding-bottom: 5px;
 }
 
 .section-title h2 {
@@ -207,7 +243,7 @@ section {
 --------------------------------------------------------------*/
 #coachsir_middle .info-wrap {
   background: rgba(255, 255, 255, 0.06);
-  padding: 20px;
+  padding: 30px;
 }
 
 #coachsir_middle .info i {
@@ -225,7 +261,7 @@ section {
 }
 
 #coachsir_middle .info h4 {
-  padding: 0 0 0 20px;
+  padding: 0 0 0 60px;
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 5px;
