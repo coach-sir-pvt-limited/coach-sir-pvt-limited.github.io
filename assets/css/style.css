@@ -90,25 +90,27 @@ h6 {
   margin: 2px;
   padding: 4px;
 }
-.mynavbar form a button
+.mynavbar form a div
 {
    border-color: #1fc0fa;
    padding: 10px 15px;
    color: #1fc0fa;
    margin: 0px 3px;
+   font-family: "Raleway", sans-serif;
 }
 
  @media screen and (max-width: 400px){
-  .mynavbar form a button{
+  .mynavbar form a div{
     border-color: #1fc0fa;
     padding: 10px 15px;
     color: #1fc0fa;
     margin: 0px 3px;
+    font-family: "Raleway", sans-serif;
   }
 }
 
 
-.mynavbar form a button:hover
+.mynavbar form a div:hover
 {
    border-color: #1fc0fa;
    color: #fff;
